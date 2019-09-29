@@ -4,6 +4,7 @@ Test app implementing JWT authentication with Express, Sequelize and SQLite3.
 + Create an empty file called `.database.sqlite3` in the project root to hold the SQLite database
 + Make sure you have sequelize-cli installed, and run `npx sequelize db:migrate` to set up the user table in database.sqlite3
 + Database connection is handled in models/index.js as part of the sequelize boilerplate
++ Create a .env file in the project root with a TOKEN_SECRET value to define the secret key used to sign the token
 + Run `npm start` to start server on localhost:3000
 
 You can use Postman to send requests to the following endpoints:
