@@ -1,3 +1,5 @@
 node_modules
 seeders
 database.sqlite3
+test.js
+.env
